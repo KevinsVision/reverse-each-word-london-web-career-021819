@@ -5,5 +5,4 @@ def reverse_each_word(string)
   string_length.downto(0).each do |i|
     new_string << self|i|
   end
-   string
 end

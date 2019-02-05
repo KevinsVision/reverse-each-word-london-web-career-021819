@@ -6,5 +6,6 @@ def reverse_each_word(string)
     new_string << self|i|
   end
   end
+end
    new_string
 end

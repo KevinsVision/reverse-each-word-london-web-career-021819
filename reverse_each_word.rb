@@ -1,8 +1,8 @@
 
 def reverse_each_word(string)
   new_string = ""
-  string = self.length - 1
-  string.downto(0) do |i|
+  string_length = self.length - 1
+  string_length.downto(0) do |i|
     new_string << self|i|
   end
    new_string
